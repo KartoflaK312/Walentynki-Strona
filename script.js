@@ -14,10 +14,10 @@ butt_n.addEventListener('click',()=>{
     
     butt_n.innerText = answers[i]
     i++
-    // if(i==answers.length+1){
-    //     audio.play()
-    //     jumscare.style.visibility="visible"
-    // }
+    if(i==answers.length+1){
+        audio.play()
+        jumscare.style.visibility="visible"
+    }
     scale+=5
     margin-=0.5
     butt_n.style.marginLeft = margin+"vw"
