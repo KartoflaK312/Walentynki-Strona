@@ -10,9 +10,9 @@ body{
     background-image: url(imgs/kot.jpg);
     background-size: 600px;
     background-repeat: repeat;
-    height: fit-content;
+    height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: "Delicious Handrawn", serif;
     font-weight: 400;
     font-style: normal;
@@ -74,6 +74,7 @@ transition: all 1s;
     align-items: center;
     width: 70vw;
     flex-direction: column;
+    padding: 5vh 0;
 }
 
 @media only screen and (max-width: 600px){
